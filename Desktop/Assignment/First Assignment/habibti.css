@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    
+
+}
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 500px 500px;
+
+
+
+}
+
+
+.grid-item {
+    border: 1px solid #000000;
+    padding: 10px;
+
+}
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.top-row, .bottom-row{
+    display: flex;
+}
+
+
+.box {
+    width: 50%;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: gainsboro;
+    height: 100vh;
+
+}
+button {
+    display: inline-block;
+}
